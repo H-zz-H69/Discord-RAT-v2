@@ -1,4 +1,4 @@
-# 🛑 Educational Remote Access Trojan (RAT) – Proof of Concept
+# Discord RAT V2 ❤
 
 > ⚠️ **This project is strictly for educational and ethical research purposes only.**  
 > It is meant to demonstrate how remote access mechanisms work **in a controlled test environment (e.g., a virtual machine)**.  
