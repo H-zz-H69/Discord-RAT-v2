@@ -1449,7 +1449,7 @@ async def getadmin(ctx):
             )
             
         await ctx.send(embed=embed)
-        exit()
+        sys.exit()
 
 @bot.command()
 async def admin(ctx):
@@ -1591,4 +1591,5 @@ if AutoStartup:
     startup()
 wait_for_wifi()
 bot.run(HzzH)
+
 
