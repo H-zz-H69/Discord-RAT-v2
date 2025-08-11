@@ -12,6 +12,12 @@ This is a **Remote Access Trojan (RAT)** written in **Python** utilizing the **D
 The tool is a **proof-of-concept** designed to demonstrate the potential abuse of messaging platforms for remote control purposes.
 
 ---
+# ⭐
+## 10 Stars Update:
+- **Discord Injection**  
+  - Injects JavaScript to track password changes and capture new + old tokens
+
+# ⭐
 
 ## Feature List:
 
@@ -21,8 +27,6 @@ The tool is a **proof-of-concept** designed to demonstrate the potential abuse o
   - `shell:startup` folder
 - **Auto-Stealer**  
   - Steals Discord tokens, and more on first launch
-- **Discord Injection**  
-  - Injects JavaScript to track password changes and capture new + old tokens
 - Checks for existing instances  
   - If already running, terminates the one with **lower permissions**
 
