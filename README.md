@@ -13,14 +13,14 @@ The tool is a **proof-of-concept** designed to demonstrate the potential abuse o
 
 ---
 
-## ToDo Feature List:
+## Feature List:
 
 ### 🛠 On Startup Behavior
 - **Adds itself in startup:** 
   - `regedit` under `"Run"`  
   - `shell:startup` folder
 - **Auto-Stealer**  
-  - Steals Discord tokens, browser cookies, Steam username, and more on first launch
+  - Steals Discord tokens, and more on first launch
 - **Discord Injection**  
   - Injects JavaScript to track password changes and capture new + old tokens
 - Checks for existing instances  
