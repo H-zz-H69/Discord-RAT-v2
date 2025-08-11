@@ -1,1 +1,2 @@
-py hzzh.py
+py main.py
+pause

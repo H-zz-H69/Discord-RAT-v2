@@ -1,0 +1,10 @@
+aiohttp
+opencv-python
+discord.py
+psutil
+requests
+pyautogui
+pyaes
+colorama
+urllib3
+pywin32
