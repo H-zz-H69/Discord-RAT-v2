@@ -36,13 +36,11 @@ The tool is a **proof-of-concept** designed to demonstrate the potential abuse o
 
 ### 🎯 Stealers
 - `!token` – Steals Discord token  
-- `!roblox` – Steals Roblox cookies  
-- `!browser` – Steals browser history, passwords, credit cards, and cookies  
+- `!roblox` – Steals Roblox cookies 
 
 ### 📸 Surveillance
 - `!screenshot` – Takes a screenshot of the desktop  
-- `!webcam` – Captures a webcam photo  
-- `!information` – Displays basic system information  
+- `!webcam` – Captures a webcam photo 
 
 ### 🔐 Privilege Escalation
 - `!getadmin` – Prompts UAC until user accepts  
@@ -60,11 +58,6 @@ The tool is a **proof-of-concept** designed to demonstrate the potential abuse o
 - `!blocklist` – Blocks access to antivirus websites  
 - `!taskmgr` – Enables/disables Task Manager  
 - `!nostartup` – Prevents user from accessing the startup folder  
-- `!no_reset` – Disables the "Reset this PC" option  
-
-### 🧨 Destructive Actions
-- `!encrypt (dir/*)` – Encrypts files with `.hzzh` extension  
-- `!selfdestruct` – Deletes all files and cleans traces  
 
 ### 📂 File & Directory Control
 - `!list` – Lists files in the current directory  
@@ -74,10 +67,7 @@ The tool is a **proof-of-concept** designed to demonstrate the potential abuse o
 - `!upload` – Uploads a file to the victim’s PC  
 
 ### ⚙️ Process & Shell Control
-- `!tasks` – Lists all running tasks  
-- `!taskkill "task"` – Kills a specified task  
 - `!shell "cmd"` – Executes a shell command
-- `!cmd "cmd"` – Executes a CMD command
 
 ---
 
