@@ -77,5 +77,6 @@ The tool is a **proof-of-concept** designed to demonstrate the potential abuse o
 
 ## BUILD
 
-- 1. `pip install pyinstaller`
-- 2. `pyinstaller hzzh.py --noconsole --onefile --hidden-import=aiohttp --hidden-import=cv2 --hidden-import=discord --hidden-import=psutil --hidden-import=requests --hidden-import=pyautogui --hidden-import=pyaes --hidden-import=colorama --hidden-import=urllib3 --hidden-import=pywin32`
+- 1 - `pip install pyinstaller`
+- 
+- 2 - `pyinstaller hzzh.py --noconsole --onefile --hidden-import=aiohttp --hidden-import=cv2 --hidden-import=discord --hidden-import=psutil --hidden-import=requests --hidden-import=pyautogui --hidden-import=pyaes --hidden-import=colorama --hidden-import=urllib3 --hidden-import=pywin32`
